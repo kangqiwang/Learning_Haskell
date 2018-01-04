@@ -1,0 +1,1 @@
+solver a n = (getX n )!! (snd $ maximum $ zip $ getMax a [0 .. ] :: Int)
